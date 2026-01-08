@@ -650,6 +650,30 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        .project-icon {
+    font-size: 4rem;
+    opacity: 0.6;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, #0052a3 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    margin-top: auto;
+    text-align: center;
+}
+
+.project-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 102, 204, 0.3);
+}
     </style>
 </head>
 <body>
@@ -661,6 +685,8 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -1143,6 +1169,314 @@
             </div>
         </div>
     </section>
+        <!-- Projects Section -->
+         
+<section id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-subtitle">Engineering Portfolio</p>
+
+    <!-- Project 7: Topology Optimization Assignment 1 -->
+<div class="project-card">
+    <div class="project-image">
+        <div class="project-icon">🔬</div>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">Topology Optimized Engine Bracket</h3>
+        <p class="project-company">Stevens Institute - Design for Additive Manufacturing</p>
+        <p class="project-description">
+            30% topology optimization study on engine bracket achieving significant mass reduction 
+            while maintaining structural integrity. Comprehensive FEA analysis including stress, 
+            displacement, factor of safety, and tension/compression analysis across multiple orientations.
+        </p>
+        <div class="project-tags">
+            <span class="tag">Topology Optimization</span>
+            <span class="tag">FEA Analysis</span>
+            <span class="tag">SOLIDWORKS</span>
+            <span class="tag">Additive Manufacturing</span>
+        </div>
+        <div class="project-stats">
+            <div class="stat">
+                <strong>30%</strong>
+                <span>Mass Reduction</span>
+            </div>
+            <div class="stat">
+                <strong>Multiple</strong>
+                <span>Orientations</span>
+            </div>
+            <div class="stat">
+                <strong>FEA</strong>
+                <span>Validated</span>
+            </div>
+        </div>
+        <a href="assets/1.pdf" class="project-link" download>
+            📥 Download Assignment 1
+        </a>
+    </div>
+</div>
+
+<!-- Project 8: Advanced Topology Optimization -->
+<div class="project-card">
+    <div class="project-image">
+        <div class="project-icon">⚡</div>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">15-5PH Steel Bracket Optimization</h3>
+        <p class="project-company">Stevens Institute - Advanced AM Design</p>
+        <p class="project-description">
+            Advanced topology optimization achieving 71.58% mass reduction on 15-5PH stainless steel 
+            bracket. Multi-load case analysis with horizontal (1,250 lbf), 45° (1,875 lbf), and 
+            vertical (2,500 lbf) loading conditions maintaining ±0.001mm precision requirements.
+        </p>
+        <div class="project-tags">
+            <span class="tag">15-5PH Steel</span>
+            <span class="tag">Multi-Load Analysis</span>
+            <span class="tag">High Precision</span>
+            <span class="tag">Fusion 360</span>
+        </div>
+        <div class="project-stats">
+            <div class="stat">
+                <strong>71.6%</strong>
+                <span>Weight Reduction</span>
+            </div>
+            <div class="stat">
+                <strong>0.24 kg</strong>
+                <span>Final Mass</span>
+            </div>
+            <div class="stat">
+                <strong>3 Loads</strong>
+                <span>Test Cases</span>
+            </div>
+        </div>
+        <a href="assets/2.pdf" class="project-link" download>
+            📥 Download Assignment 2
+        </a>
+    </div>
+</div>
+
+<!-- Project 9: Build Orientation Optimization -->
+<div class="project-card">
+    <div class="project-image">
+        <div class="project-icon">📐</div>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">Build Orientation & Support Optimization Study</h3>
+        <p class="project-company">Stevens Institute - AM Process Optimization</p>
+        <p class="project-description">
+            Comprehensive analysis of three build orientations evaluating build time, support material 
+            volume, surface quality, and mechanical performance. Optimized orientation reduced build 
+            time from 143,459s to 90,302s (37% reduction) while minimizing support material.
+        </p>
+        <div class="project-tags">
+            <span class="tag">Build Orientation</span>
+            <span class="tag">Process Optimization</span>
+            <span class="tag">Support Analysis</span>
+            <span class="tag">Cost Reduction</span>
+        </div>
+        <div class="project-stats">
+            <div class="stat">
+                <strong>37%</strong>
+                <span>Time Saved</span>
+            </div>
+            <div class="stat">
+                <strong>38%</strong>
+                <span>Support ↓</span>
+            </div>
+            <div class="stat">
+                <strong>3</strong>
+                <span>Orientations</span>
+            </div>
+        </div>
+        <a href="assets/3.pdf" class="project-link" download>
+            📥 Download Assignment 3
+        </a>
+    </div>
+</div>
+
+<!-- Project 10: Lattice Structure Optimization -->
+<div class="project-card">
+    <div class="project-image">
+        <div class="project-icon">🔷</div>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">Lattice Structure Design & Optimization</h3>
+        <p class="project-company">Stevens Institute - Advanced Lattice Structures</p>
+        <p class="project-description">
+            Progressive optimization study achieving 79.5% mass reduction (440.87g to 90.4g) through 
+            topology optimization and lattice structure integration. Maintained structural performance 
+            with factor of safety 3.75 while dramatically reducing material usage.
+        </p>
+        <div class="project-tags">
+            <span class="tag">Lattice Structures</span>
+            <span class="tag">Progressive Optimization</span>
+            <span class="tag">FEA Validation</span>
+            <span class="tag">Material Efficiency</span>
+        </div>
+        <div class="project-stats">
+            <div class="stat">
+                <strong>79.5%</strong>
+                <span>Mass Reduction</span>
+            </div>
+            <div class="stat">
+                <strong>90.4g</strong>
+                <span>Final Weight</span>
+            </div>
+            <div class="stat">
+                <strong>3.75</strong>
+                <span>Factor of Safety</span>
+            </div>
+        </div>
+        <a href="assets/4.pdf" class="project-link" download>
+            📥 Download Assignment 4
+        </a>
+    </div>
+</div>
+    
+    <div class="projects-grid reveal">
+        <!-- Project 1: ASML -->
+        <div class="project-card">
+            <div class="project-image">
+                <div class="project-icon">📄</div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">ASML Precision Engineering Project</h3>
+                <p class="project-company">ASML - Semiconductor Equipment</p>
+                <p class="project-description">
+                    Comprehensive documentation of precision mechanical assemblies designed for semiconductor 
+                    lithography equipment, showcasing advanced GD&T, FEA analysis, and ultra-precision manufacturing.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Siemens NX</span>
+                    <span class="tag">ANSYS FEA</span>
+                    <span class="tag">±0.001mm Tolerance</span>
+                    <span class="tag">Teamcenter PLM</span>
+                </div>
+                <a href="assets/PROJECT ASML.pdf" class="project-link" download>
+                    📥 Download Project Report
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 2: Major Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <div class="project-icon">🔧</div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Major Engineering Project</h3>
+                <p class="project-company">Capstone Design Project</p>
+                <p class="project-description">
+                    Comprehensive mechanical engineering design project demonstrating end-to-end product development 
+                    from concept through detailed design, analysis, and manufacturing planning.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">SOLIDWORKS</span>
+                    <span class="tag">Product Design</span>
+                    <span class="tag">DFM/DFA</span>
+                    <span class="tag">CAE Analysis</span>
+                </div>
+                <a href="assets/MAJOR PROJECT .pdf" class="project-link" download>
+                    📥 Download Project Report
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 3: Robotic Vacuum Cleaner -->
+        <div class="project-card">
+            <div class="project-image">
+                <div class="project-icon">🤖</div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Robotic Vacuum Cleaner Design</h3>
+                <p class="project-company">Robotics & Automation Project</p>
+                <p class="project-description">
+                    Mechanical design and development of an autonomous robotic vacuum cleaner, integrating 
+                    mechanical systems, motion planning, and intelligent navigation algorithms.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Robotics</span>
+                    <span class="tag">Mechanical Design</span>
+                    <span class="tag">Automation</span>
+                    <span class="tag">Systems Integration</span>
+                </div>
+                <a href="assets/ROBOTIC VACCUM_CLEANER.pdf" class="project-link" download>
+                    📥 Download Project Report
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 4: ME-652 Individual Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <div class="project-icon">⚙️</div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Advanced Manufacturing Project</h3>
+                <p class="project-company">Stevens Institute of Technology</p>
+                <p class="project-description">
+                    Graduate-level individual research project focusing on advanced manufacturing processes, 
+                    optimization techniques, and production system analysis.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Manufacturing</span>
+                    <span class="tag">Process Optimization</span>
+                    <span class="tag">Research</span>
+                    <span class="tag">Analysis</span>
+                </div>
+                <a href="assets/ME-652 Indiviual Project - Kalpak.pdf" class="project-link" download>
+                    📥 Download Project Report
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 5: Wafer Chuck Stack -->
+        <div class="project-card">
+            <div class="project-image">
+                <div class="project-icon">💎</div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Wafer Chuck Stack Isometric Design</h3>
+                <p class="project-company">Semiconductor Tooling</p>
+                <p class="project-description">
+                    Precision tooling design for semiconductor wafer handling systems, featuring isometric 
+                    engineering drawings and detailed assembly documentation for high-precision applications.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Precision Tooling</span>
+                    <span class="tag">Semiconductor</span>
+                    <span class="tag">Technical Drawing</span>
+                    <span class="tag">GD&T</span>
+                </div>
+                <a href="assets/wafer_chuck_stack_isometric.pdf" class="project-link" download>
+                    📥 Download Technical Drawing
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 6: LTCE Final Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <div class="project-icon">📊</div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">LTCE Mechanical Research Project</h3>
+                <p class="project-company">Research & Development</p>
+                <p class="project-description">
+                    Comprehensive research project documenting advanced mechanical engineering concepts, 
+                    experimental validation, and data-driven analysis methodologies.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Research</span>
+                    <span class="tag">Data Analysis</span>
+                    <span class="tag">Experimental Methods</span>
+                    <span class="tag">Documentation</span>
+                </div>
+                <a href="assets/LTCE-Mech-Final_Project_Research.pdf" class="project-link" download>
+                    📥 Download Research Report
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Footer / Contact -->
     <footer id="contact">
@@ -1240,5 +1574,7 @@
             });
         });
     </script>
+
+
 </body>
 </html>
